@@ -207,9 +207,9 @@
         function clearProgress() { if(confirm("Reset mission progress?")) { localStorage.removeItem('assignmentX_save'); location.reload(); } }
 
         // --- AUDIO & MISC ---
-        const AUDIO_BG = new Audio("https://cdn.pixabay.com/download/audio/2022/03/10/audio_c330df3253.mp3?filename=sci-fi-ambient-10481.mp3");
-        const SFX_CORR = new Audio("https://assets.mixkit.co/active_storage/sfx/1435/1435-preview.mp3");
-        const SFX_WRONG = new Audio("https://assets.mixkit.co/active_storage/sfx/1118/1118-preview.mp3");
+        const AUDIO_BG = new Audio("upbeat_track.mp3");
+        const SFX_CORR = new Audio("correct answer small group cheering 2.mp3");
+        const SFX_WRONG = new Audio("wrong answer buzzer.mp3");
         AUDIO_BG.loop = true;
 
         function toggleMute() {
